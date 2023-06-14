@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <nav className="z-10 border-b border-gray-300 bg-gradient-to-b pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:dark:bg-zinc-800/30 text-sm lg:flex">
-      <div className="flex w-full max-w-4xl mx-auto items-center justify-between">
+      <div className="flex w-full max-w-6xl mx-auto items-center justify-between">
         <Link href="/">
           <img src="/logo.svg" alt="Logo" className="relative dark:invert mx-3 h-4 lg:h-6" />
         </Link>

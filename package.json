@@ -9,7 +9,7 @@
     "start": "next start"
   },
   "keywords": [],
-  "author": "",
+  "author": "Álvaro Guerra Jované",
   "license": "ISC",
   "dependencies": {
     "next": "^13.3.1",
