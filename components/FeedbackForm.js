@@ -1,3 +1,4 @@
+import ButtonPrimary from "./ButtonPrimary"
 
 export default function FeedbackForm() {
   return (
@@ -16,14 +17,14 @@ export default function FeedbackForm() {
     </p>
   
     <label htmlFor="name">Nombre y apellido</label>
-    <input id="name" className="form-field text-base m-6 p-5 w-full" type="text" name="name" />
+    <input id="name" className="form-field text-base m-6 p-5 w-full dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:dark:bg-zinc-800/30" type="text" name="name" />
   
     <label htmlFor="email">Correo</label>
-    <input id="email" className="form-field text-base m-6 p-5 w-full" type="email" name="email" required />
+    <input id="email" className="form-field text-base m-6 p-5 w-full dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:dark:bg-zinc-800/30" type="email" name="email" required />
   
     <label htmlFor="feedback">Mensaje</label>
-    <textarea id="feedback" className="form-field text-base m-6 p-5 w-full" wrap="soft" name="feedback" required></textarea>
-    <button className="button bg-black text-white w-2/5 text-base m-6 p-5 w-full" type="submit">Enviar</button>
+    <textarea id="feedback" className="form-field text-base m-6 p-5 w-full dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:dark:bg-zinc-800/30" wrap="soft" name="feedback" required></textarea>
+    <ButtonPrimary className="" type="submit">Enviar</ButtonPrimary>
   </form>
   
   )
