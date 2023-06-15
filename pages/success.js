@@ -8,7 +8,6 @@ const success = () => {
             <h1 className="text-xl font-bold mb-4">¡Hemos recibido tu información!</h1>
             <p>Gracias por contactarnos. Haz clic <Link href="/" className="underline underline-offset-4">aquí</Link> para volver al inicio.</p>
         </div>
-        
       </main>
   )
 }
